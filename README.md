@@ -6,7 +6,7 @@
 
 node's data type: **number**, **string**, **boolean**, **null**, **undefined**.
 
-<img width="429" alt="ll" src="https://user-images.githubusercontent.com/6517308/35762715-5d00c9bc-0861-11e8-88f7-6e503a1fa3af.png">
+<img width="552" alt="dll" src="https://user-images.githubusercontent.com/6517308/35762752-19b17df4-0862-11e8-8ce3-f940d83dde51.png">
 
 ## Usage
 ```js
@@ -114,7 +114,7 @@ dll.traverse((n) => { console.log(n.getValue()); });
 
 traverse the dll from end to beginning and calls cb for each node
 ```javascript
-dll.traverse((n) => { console.log(n.getValue()); });
+dll.traverseBackward((n) => { console.log(n.getValue()); });
 // n4
 // n3
 // n2
