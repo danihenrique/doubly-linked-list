@@ -4,6 +4,10 @@
  * @license MIT
  */
 
+/**
+ * Doubly Linked List Node
+ * @function
+ */
 const node = (val, pre, nex) => {
   let value = val;
   let prev = pre;
@@ -55,6 +59,10 @@ const node = (val, pre, nex) => {
   };
 };
 
+/**
+ * Doubly Linked List
+ * @function
+ */
 const doublyLinkedList = () => {
   let headNode = null;
   let tailNode = null;
