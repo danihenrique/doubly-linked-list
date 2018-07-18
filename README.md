@@ -1,8 +1,8 @@
 # @datastrucures-js/doubly-linked-list
 
-[![build:?](https://travis-ci.org/eyas-ranjous/datatructures-js/doubly-linked-list.svg?branch=master)](https://travis-ci.org/eyas-ranjous/datatructures-js/doubly-linked-list) 
+[![build:?](https://travis-ci.org/datastructures-js/doubly-linked-list.svg?branch=master)](https://travis-ci.org/datastructures-js/doubly-linked-list) 
 [![npm](https://img.shields.io/npm/v/@datastructures-js/doubly-linked-list.svg)](https://www.npmjs.com/package/@datastructures-js/doubly-linked-list)
-[![npm](https://img.shields.io/npm/dm/@datastructures-js/doubly-linked-list.svg)](https://www.npmjs.com/packages/@datastructures-js/doubly-linked-list) [![npm](https://img.shields.io/badge/node-%3E=%206.0-blue.svg)](https://www.npmjs.com/package/@datastructures-js/doubly-linked-list)
+[![npm](https://img.shields.io/npm/dm/@datastructures-js/doubly-linked-list.svg)](https://www.npmjs.com/package/@datastructures-js/doubly-linked-list) [![npm](https://img.shields.io/badge/node-%3E=%206.0-blue.svg)](https://www.npmjs.com/package/@datastructures-js/doubly-linked-list)
 
 node's data type: **number**, **string**, **boolean**, **null**, **undefined**.
 
@@ -21,7 +21,7 @@ const dll = doublyLinkedListFn();
 creates a linked list node with a given value. The node object exposes the following functions:
 
 * **.setValue(value)** sets the value of the node.
-* **.getValue() gets** the value of the node
+* **.getValue()** gets the value of the node
 * **.setNext(node)** sets the next linkedListNode object.
 * **.getNext()** gets the next linkedListNode object.
 * **.setPrev(node)** sets the previous linkedListNode object.
